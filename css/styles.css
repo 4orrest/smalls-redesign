@@ -1,0 +1,48 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+  background-color: #f0ece8;
+  padding: 31px 25px;
+  color: black;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Page styles */
+h1 {
+  margin-top: 40px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+div {
+  padding-top: 60px
+}
